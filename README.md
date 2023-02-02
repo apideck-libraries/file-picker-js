@@ -77,7 +77,6 @@ ApideckVault.open({
 | token              | string  | true     | -                   | The JSON Web Token returned from the Create Session call              |
 | onSelect           | event   | false    | -                   | The function that gets called when a file is selected                 |
 | onConnectionSelect | event   | false    | -                   | The function that gets called when a connection is selected           |
-| trigger            | element | false    | -                   | The component that should trigger the File Picker modal on click      |
 | title              | string  | false    | Apideck File Picker | Title shown in the modal                                              |
 | subTitle           | string  | false    | Select a file       | Subtitle shown in the modal                                           |
 | showAttribution    | boolean | false    | true                | Show "Powered by Apideck" in the backdrop of the modal backdrop       |
