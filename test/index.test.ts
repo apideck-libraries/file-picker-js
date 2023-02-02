@@ -28,7 +28,7 @@ describe('FilePicker', () => {
       left: '0',
       top: '0',
       width: '100%',
-      zIndex: '9999',
+      zIndex: '9997',
     });
   });
 });
