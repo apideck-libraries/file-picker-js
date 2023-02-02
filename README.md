@@ -1,10 +1,10 @@
-<img src="https://developers.apideck.com/_next/image?url=%2Ffile-picker-guide.png&w=1920&q=75"" width="100%" />
+<img src="https://developers.apideck.com/_next/image?url=%2Ffile-picker-guide.png&w=1920&q=75" width="100%" />
 
 # FilePicker JS
 
 A vanilla JavaScript library to embed the [Apideck FilePicker](https://www.apideck.com/samples/file-picker) in any web application.
 
-**FilePicker JS** | [React FilePicker](https://github.com/apideck-libraries/file-picker) | [Vue Vault](https://github.com/apideck-libraries/vue-file-picker)
+**FilePicker JS** | [React FilePicker](https://github.com/apideck-libraries/file-picker)
 
 ## Installation
 
@@ -16,7 +16,7 @@ npm install @apideck/file-picker-js
 
 ### Script
 
-If you don't want to set up a build environment, you can get `@apideck/file-picker-js` from a CDN like unpkg.com and it will be globally available through the `window.ApideckVault` object.
+If you don't want to set up a build environment, you can get `@apideck/file-picker-js` from a CDN like unpkg.com and it will be globally available through the `window.FilePicker` object.
 
 ```html
 <script src="https://unpkg.com/@apideck/file-picker-js"></script>
