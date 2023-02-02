@@ -4,7 +4,7 @@
 
 A vanilla JavaScript library to embed the [Apideck FilePicker](https://www.apideck.com/samples/file-picker) in any web application.
 
-**FilePicker JS** | [React FilePicker](https://github.com/apideck-libraries/file-picker)
+**FilePicker JS** | [FilePicker React](https://github.com/apideck-libraries/file-picker)
 
 ## Installation
 
@@ -28,7 +28,7 @@ Before opening the FilePicker modal with `@apideck/file-picker-js`, you need to 
 
 ## Usage
 
-Pass the JWT you got from the Vault session to `@apideck/file-picker-js` and provide a `onSelect` function that acts upon selection of a file:
+Pass the JWT you got from the Vault session to `@apideck/file-picker-js` and provide an `onSelect` function that acts upon selection of a file:
 
 ```js
 import { FilePicker } from '@apideck/file-picker-js';
@@ -42,9 +42,9 @@ FilePicker.open({
 If you want to get notified when the modal opens and closes, you can provide the `onReady` and `onClose` options. You could also get notified when the consumer switches from integration by using the `onConnectionSelect` option.
 
 ```jsx
-import { ApideckVault } from '@apideck/file-picker-js';
+import { FilePicker } from '@apideck/file-picker-js';
 
-ApideckVault.open({
+FilePicker.open({
   token: 'REPLACE_WITH_SESSION_TOKEN',
   onSelect: file => console.log(file),
   onClose: () => {
@@ -62,9 +62,9 @@ ApideckVault.open({
 You can also provide a file through the `fileToSave` options that will force the FilePicker to go into "Upload" mode. This will allow the user to select the connector and folder that the file needs to get saved to.
 
 ```jsx
-import { ApideckVault } from '@apideck/file-picker-js';
+import { FilePicker } from '@apideck/file-picker-js';
 
-ApideckVault.open({
+FilePicker.open({
   token: 'REPLACE_WITH_SESSION_TOKEN',
   fileToSave: '<add-file-here>',
 });
