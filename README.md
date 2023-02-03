@@ -1,10 +1,10 @@
-<img src="https://developers.apideck.com/_next/image?url=%2Ffile-picker-guide.png&w=1920&q=75" width="100%" />
-
 # FilePicker JS
 
 A vanilla JavaScript library to embed the [Apideck FilePicker](https://www.apideck.com/samples/file-picker) in any web application.
 
-**FilePicker JS** | [FilePicker React](https://github.com/apideck-libraries/file-picker)
+<img src="./screenshot.png" width="100%" />
+
+**FilePicker JS** | [React FilePicker](https://github.com/apideck-libraries/file-picker) | [Vue FilePicker](https://github.com/apideck-libraries/vue-file-picker)
 
 ## Installation
 
